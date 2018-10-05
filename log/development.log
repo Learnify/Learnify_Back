@@ -376,3 +376,2256 @@ FOREIGN KEY ("user_id")
   ↳ /home/julian/.rbenv/versions/2.5.1/bin/rake:23
   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/julian/.rbenv/versions/2.5.1/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2018-10-01 21:52:25 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jann/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jann/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-10-01 21:52:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (72.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.3ms)[0m  [1m[32mINSERT INTO "careers" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (190.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (572.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-03 00:00:00"], ["updated_at", "2018-10-03 00:00:00"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (63.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2015-12-11 00:00:00"], ["updated_at", "2017-11-30 00:00:00"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (65.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "1997-06-14 00:00:00"], ["updated_at", "2016-10-15 00:00:00"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (195.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-03 00:00:00"], ["updated_at", "2018-10-03 00:00:00"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (63.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Create (0.2ms)[0m  [1m[32mINSERT INTO "tutorials" ("title", "summary", "appointment", "created_at", "updated_at", "subject_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Primer Tutorial"], ["summary", "Este es un breve resumen del tutorial"], ["appointment", "2018-10-13"], ["created_at", "2018-10-01 00:00:00"], ["updated_at", "2018-10-10 00:00:00"], ["subject_id", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (65.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2015-12-11 00:00:00"], ["updated_at", "2017-11-30 00:00:00"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (65.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 02:49:33.171203"], ["updated_at", "2018-10-05 02:49:33.171203"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (61.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 02:52:31.366225"], ["updated_at", "2018-10-05 02:52:31.366225"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (228.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 02:52:31.619502"], ["updated_at", "2018-10-05 02:52:31.619502"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (64.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Create (0.2ms)[0m  [1m[32mINSERT INTO "tutorials" ("title", "summary", "appointment", "created_at", "updated_at", "subject_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Primer Tutorial"], ["summary", "Este es un breve resumen del tutorial"], ["appointment", "2018-10-13"], ["created_at", "2018-10-05 02:52:31.706696"], ["updated_at", "2018-10-05 02:52:31.706696"], ["subject_id", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (66.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 02:52:31.774755"], ["updated_at", "2018-10-05 02:52:31.774755"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (65.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 02:52:31.846109"], ["updated_at", "2018-10-05 02:52:31.846109"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (105.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUserRole Load (0.1ms)[0m  [1m[34mSELECT  "user_roles".* FROM "user_roles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTutorial Load (0.2ms)[0m  [1m[34mSELECT  "tutorials".* FROM "tutorials" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 03:01:13.670655"], ["updated_at", "2018-10-05 03:01:13.670655"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (202.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 03:01:13.899686"], ["updated_at", "2018-10-05 03:01:13.899686"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (62.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Create (0.3ms)[0m  [1m[32mINSERT INTO "tutorials" ("title", "summary", "appointment", "created_at", "updated_at", "subject_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Primer Tutorial"], ["summary", "Este es un breve resumen del tutorial"], ["appointment", "2018-10-13"], ["created_at", "2018-10-05 03:01:13.985135"], ["updated_at", "2018-10-05 03:01:13.985135"], ["subject_id", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (66.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 03:01:14.053102"], ["updated_at", "2018-10-05 03:01:14.053102"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (65.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 03:01:14.124358"], ["updated_at", "2018-10-05 03:01:14.124358"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (95.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 03:03:59.151539"], ["updated_at", "2018-10-05 03:03:59.151539"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (194.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 03:03:59.370148"], ["updated_at", "2018-10-05 03:03:59.370148"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (64.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Create (0.2ms)[0m  [1m[32mINSERT INTO "tutorials" ("title", "summary", "appointment", "created_at", "updated_at", "subject_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Primer Tutorial"], ["summary", "Este es un breve resumen del tutorial"], ["appointment", "2018-10-13"], ["created_at", "2018-10-05 03:03:59.458058"], ["updated_at", "2018-10-05 03:03:59.458058"], ["subject_id", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (65.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 03:03:59.525906"], ["updated_at", "2018-10-05 03:03:59.525906"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (65.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 03:03:59.597028"], ["updated_at", "2018-10-05 03:03:59.597028"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (94.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUserRole Load (0.1ms)[0m  [1m[34mSELECT  "user_roles".* FROM "user_roles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCareer Load (0.2ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT "careers".* FROM "careers"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1190.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.4ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:11
+  [1m[35m (121.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.5ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:11
+  [1m[35m (167.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:11
+  [1m[35m (122.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:11
+  [1m[35m (122.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:11
+  [1m[35m (77.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 7]]
+  ↳ db/seeds.rb:11
+  [1m[35m (77.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT "roles".* FROM "roles"[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Destroy (0.2ms)[0m  [1m[31mDELETE FROM "roles" WHERE "roles"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:13
+  [1m[35m (127.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Destroy (0.2ms)[0m  [1m[31mDELETE FROM "roles" WHERE "roles"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:13
+  [1m[35m (83.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Destroy (0.2ms)[0m  [1m[31mDELETE FROM "roles" WHERE "roles"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:13
+  [1m[35m (89.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Destroy (0.2ms)[0m  [1m[31mDELETE FROM "roles" WHERE "roles"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:13
+  [1m[35m (89.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRole Destroy (0.2ms)[0m  [1m[31mDELETE FROM "roles" WHERE "roles"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:13
+  [1m[35m (146.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUserRole Load (0.1ms)[0m  [1m[34mSELECT "user_roles".* FROM "user_roles"[0m
+  ↳ db/seeds.rb:14
+  [1m[36mTutorial Load (0.1ms)[0m  [1m[34mSELECT "tutorials".* FROM "tutorials"[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Destroy (0.2ms)[0m  [1m[31mDELETE FROM "tutorials" WHERE "tutorials"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (149.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Destroy (0.2ms)[0m  [1m[31mDELETE FROM "tutorials" WHERE "tutorials"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:15
+  [1m[35m (87.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Destroy (0.2ms)[0m  [1m[31mDELETE FROM "tutorials" WHERE "tutorials"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:15
+  [1m[35m (226.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mTutorial Destroy (0.2ms)[0m  [1m[31mDELETE FROM "tutorials" WHERE "tutorials"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:15
+  [1m[35m (164.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Destroy (0.1ms)[0m  [1m[31mDELETE FROM "subjects" WHERE "subjects"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:16
+  [1m[35m (168.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "subjects" WHERE "subjects"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:16
+  [1m[35m (146.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "subjects" WHERE "subjects"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:16
+  [1m[35m (475.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "subjects" WHERE "subjects"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:16
+  [1m[35m (88.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mSubject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "subjects" WHERE "subjects"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:16
+  [1m[35m (89.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:17
+  [1m[35m (83.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:17
+  [1m[35m (145.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:17
+  [1m[35m (88.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mTodo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:17
+  [1m[35m (106.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 04:11:21.317242"], ["updated_at", "2018-10-05 04:11:21.317242"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (92.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT "careers".* FROM "careers"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCareer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "careers" WHERE "careers"."id" = ?[0m  [["id", 8]]
+  ↳ db/seeds.rb:11
+  [1m[35m (348.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT "roles".* FROM "roles"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUserRole Load (0.1ms)[0m  [1m[34mSELECT "user_roles".* FROM "user_roles"[0m
+  ↳ db/seeds.rb:14
+  [1m[36mTutorial Load (0.1ms)[0m  [1m[34mSELECT "tutorials".* FROM "tutorials"[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  ↳ db/seeds.rb:16
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 04:14:04.426037"], ["updated_at", "2018-10-05 04:14:04.426037"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (65.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 04:14:04.518808"], ["updated_at", "2018-10-05 04:14:04.518808"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (62.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 04:14:04.597586"], ["updated_at", "2018-10-05 04:14:04.597586"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (61.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 04:14:04.665313"], ["updated_at", "2018-10-05 04:14:04.665313"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (61.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Medicina"], ["created_at", "2018-10-05 04:14:04.729093"], ["updated_at", "2018-10-05 04:14:04.729093"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (65.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Cancer"], ["summary", "Esta es una materia sobre el cancer y sus efectos"], ["created_at", "2018-10-05 04:14:04.803400"], ["updated_at", "2018-10-05 04:14:04.803400"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (102.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo2"], ["completed", 1], ["order", 1232], ["created_at", "2018-10-05 04:14:04.908103"], ["updated_at", "2018-10-05 04:14:04.908103"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (64.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Arquitectura"], ["created_at", "2018-10-05 04:14:04.974648"], ["updated_at", "2018-10-05 04:14:04.974648"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (65.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Urbanistica"], ["summary", "Esta es una materia sobre urbanistica"], ["created_at", "2018-10-05 04:14:05.048426"], ["updated_at", "2018-10-05 04:14:05.048426"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (104.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo3"], ["completed", 1], ["order", 1233], ["created_at", "2018-10-05 04:14:05.154513"], ["updated_at", "2018-10-05 04:14:05.154513"]]
+  ↳ db/seeds.rb:44
+  [1m[35m (64.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Musica"], ["created_at", "2018-10-05 04:14:05.222020"], ["updated_at", "2018-10-05 04:14:05.222020"]]
+  ↳ db/seeds.rb:46
+  [1m[35m (64.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jpmoreno@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Tutor"], ["created_at", "2018-10-05 04:14:05.291643"], ["updated_at", "2018-10-05 04:14:05.291643"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (62.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Lectoescritura musical"], ["summary", "esta es una materia que desarrolla capacidad auditiva y formacion teorica"], ["created_at", "2018-10-05 04:14:05.358622"], ["updated_at", "2018-10-05 04:14:05.358622"]]
+  ↳ db/seeds.rb:52
+  [1m[35m (62.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo4"], ["completed", 1], ["order", 1234], ["created_at", "2018-10-05 04:14:05.423386"], ["updated_at", "2018-10-05 04:14:05.423386"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (98.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Fisica"], ["created_at", "2018-10-05 04:14:05.523922"], ["updated_at", "2018-10-05 04:14:05.523922"]]
+  ↳ db/seeds.rb:55
+  [1m[35m (75.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ioobrador@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Fisica cuantica"], ["summary", "esta materia nos muestra la naturaleza a escalas espacialmente pequeñas"], ["created_at", "2018-10-05 04:14:05.608239"], ["updated_at", "2018-10-05 04:14:05.608239"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (69.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo5"], ["completed", 1], ["order", 1235], ["created_at", "2018-10-05 04:14:05.679819"], ["updated_at", "2018-10-05 04:14:05.679819"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (122.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Destroy (1267.2ms)[0m  [1m[31mDELETE FROM "careers"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mArticle Destroy (65.6ms)[0m  [1m[31mDELETE FROM "articles"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRole Destroy (65.9ms)[0m  [1m[31mDELETE FROM "roles"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUserRole Destroy (0.1ms)[0m  [1m[31mDELETE FROM "user_roles"[0m
+  ↳ db/seeds.rb:14
+  [1m[36mTutorial Destroy (97.8ms)[0m  [1m[31mDELETE FROM "tutorials"[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Destroy (65.5ms)[0m  [1m[31mDELETE FROM "subjects"[0m
+  ↳ db/seeds.rb:16
+  [1m[36mTodo Destroy (65.8ms)[0m  [1m[31mDELETE FROM "todos"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 04:18:42.132760"], ["updated_at", "2018-10-05 04:18:42.132760"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (96.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 04:18:42.252567"], ["updated_at", "2018-10-05 04:18:42.252567"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (66.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 04:18:42.339901"], ["updated_at", "2018-10-05 04:18:42.339901"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (67.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 04:18:42.413197"], ["updated_at", "2018-10-05 04:18:42.413197"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (61.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Medicina"], ["created_at", "2018-10-05 04:18:42.476781"], ["updated_at", "2018-10-05 04:18:42.476781"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (99.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Cancer"], ["summary", "Esta es una materia sobre el cancer y sus efectos"], ["created_at", "2018-10-05 04:18:42.585319"], ["updated_at", "2018-10-05 04:18:42.585319"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (68.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo2"], ["completed", 1], ["order", 1232], ["created_at", "2018-10-05 04:18:42.655862"], ["updated_at", "2018-10-05 04:18:42.655862"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (104.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Arquitectura"], ["created_at", "2018-10-05 04:18:42.762097"], ["updated_at", "2018-10-05 04:18:42.762097"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (65.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Urbanistica"], ["summary", "Esta es una materia sobre urbanistica"], ["created_at", "2018-10-05 04:18:42.841465"], ["updated_at", "2018-10-05 04:18:42.841465"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (122.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo3"], ["completed", 1], ["order", 1233], ["created_at", "2018-10-05 04:18:42.965392"], ["updated_at", "2018-10-05 04:18:42.965392"]]
+  ↳ db/seeds.rb:44
+  [1m[35m (76.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Musica"], ["created_at", "2018-10-05 04:18:43.043659"], ["updated_at", "2018-10-05 04:18:43.043659"]]
+  ↳ db/seeds.rb:46
+  [1m[35m (77.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jpmoreno@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Tutor"], ["created_at", "2018-10-05 04:18:43.126126"], ["updated_at", "2018-10-05 04:18:43.126126"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (118.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Lectoescritura musical"], ["summary", "esta es una materia que desarrolla capacidad auditiva y formacion teorica"], ["created_at", "2018-10-05 04:18:43.249527"], ["updated_at", "2018-10-05 04:18:43.249527"]]
+  ↳ db/seeds.rb:52
+  [1m[35m (73.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo4"], ["completed", 1], ["order", 1234], ["created_at", "2018-10-05 04:18:43.324948"], ["updated_at", "2018-10-05 04:18:43.324948"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (77.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Fisica"], ["created_at", "2018-10-05 04:18:43.404438"], ["updated_at", "2018-10-05 04:18:43.404438"]]
+  ↳ db/seeds.rb:55
+  [1m[35m (122.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ioobrador@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Fisica cuantica"], ["summary", "esta materia nos muestra la naturaleza a escalas espacialmente pequeñas"], ["created_at", "2018-10-05 04:18:43.534373"], ["updated_at", "2018-10-05 04:18:43.534373"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (80.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo5"], ["completed", 1], ["order", 1235], ["created_at", "2018-10-05 04:18:43.617224"], ["updated_at", "2018-10-05 04:18:43.617224"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (76.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mCareer Load (0.4ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "articles"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (1140.6ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "visits_count" integer, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (83.7ms)[0m  [1m[35mCREATE  INDEX "index_articles_on_user_id" ON "articles" ("user_id")[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "careers"[0m
+  ↳ db/schema.rb:26
+  [1m[35m (82.6ms)[0m  [1m[35mCREATE TABLE "careers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "roles"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (83.2ms)[0m  [1m[35mCREATE TABLE "roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "subjects"[0m
+  ↳ db/schema.rb:38
+  [1m[35m (116.1ms)[0m  [1m[35mCREATE TABLE "subjects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Name" varchar, "summary" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "todos"[0m
+  ↳ db/schema.rb:45
+  [1m[35m (83.5ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "completed" boolean, "order" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:45
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tutorials"[0m
+  ↳ db/schema.rb:53
+  [1m[35m (82.3ms)[0m  [1m[35mCREATE TABLE "tutorials" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "summary" text, "appointment" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "subject_id" integer)[0m
+  ↳ db/schema.rb:53
+  [1m[35m (83.6ms)[0m  [1m[35mCREATE  INDEX "index_tutorials_on_subject_id" ON "tutorials" ("subject_id")[0m
+  ↳ db/schema.rb:53
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "user_roles"[0m
+  ↳ db/schema.rb:63
+  [1m[35m (116.1ms)[0m  [1m[35mCREATE TABLE "user_roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:63
+  [1m[35m (94.5ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_role_id" ON "user_roles" ("role_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (106.7ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_user_id" ON "user_roles" ("user_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:72
+  [1m[35m (105.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "name" varchar, "last_name" varchar, "permission_level" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "career_id" integer)[0m
+  ↳ db/schema.rb:72
+  [1m[35m (106.9ms)[0m  [1m[35mCREATE  INDEX "index_users_on_career_id" ON "users" ("career_id")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (156.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (151.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (525.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (77.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181001061451)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (127.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180921200838),
+(20180929025126),
+(20181001050423),
+(20181001044211),
+(20180928035451),
+(20180928041124),
+(20180929025304),
+(20180928041204),
+(20181001051104);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (103.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-05 04:20:38.111813"], ["updated_at", "2018-10-05 04:20:38.111813"]]
+  ↳ db/schema.rb:13
+  [1m[35m (73.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "articles"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (154.3ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "visits_count" integer, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (168.8ms)[0m  [1m[35mCREATE  INDEX "index_articles_on_user_id" ON "articles" ("user_id")[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "careers"[0m
+  ↳ db/schema.rb:26
+  [1m[35m (185.4ms)[0m  [1m[35mCREATE TABLE "careers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "roles"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (187.1ms)[0m  [1m[35mCREATE TABLE "roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "subjects"[0m
+  ↳ db/schema.rb:38
+  [1m[35m (186.0ms)[0m  [1m[35mCREATE TABLE "subjects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Name" varchar, "summary" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "todos"[0m
+  ↳ db/schema.rb:45
+  [1m[35m (203.6ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "completed" boolean, "order" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:45
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tutorials"[0m
+  ↳ db/schema.rb:53
+  [1m[35m (185.4ms)[0m  [1m[35mCREATE TABLE "tutorials" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "summary" text, "appointment" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "subject_id" integer)[0m
+  ↳ db/schema.rb:53
+  [1m[35m (203.9ms)[0m  [1m[35mCREATE  INDEX "index_tutorials_on_subject_id" ON "tutorials" ("subject_id")[0m
+  ↳ db/schema.rb:53
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "user_roles"[0m
+  ↳ db/schema.rb:63
+  [1m[35m (526.2ms)[0m  [1m[35mCREATE TABLE "user_roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:63
+  [1m[35m (130.2ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_role_id" ON "user_roles" ("role_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (135.0ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_user_id" ON "user_roles" ("user_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:72
+  [1m[35m (141.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "name" varchar, "last_name" varchar, "permission_level" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "career_id" integer)[0m
+  ↳ db/schema.rb:72
+  [1m[35m (164.2ms)[0m  [1m[35mCREATE  INDEX "index_users_on_career_id" ON "users" ("career_id")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (152.7ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (151.7ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (169.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (169.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181001061451)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (171.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180921200838),
+(20180929025126),
+(20181001050423),
+(20181001044211),
+(20180928035451),
+(20180928041124),
+(20180929025304),
+(20180928041204),
+(20181001051104);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (220.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-05 04:20:41.813799"], ["updated_at", "2018-10-05 04:20:41.813799"]]
+  ↳ db/schema.rb:13
+  [1m[35m (184.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2018-10-05 04:20:42.000635"], ["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (497.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Destroy (168.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Destroy (235.9ms)[0m  [1m[31mDELETE FROM "careers"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mArticle Destroy (317.9ms)[0m  [1m[31mDELETE FROM "articles"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRole Destroy (685.0ms)[0m  [1m[31mDELETE FROM "roles"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUserRole Destroy (100.3ms)[0m  [1m[31mDELETE FROM "user_roles"[0m
+  ↳ db/seeds.rb:14
+  [1m[36mTutorial Destroy (100.6ms)[0m  [1m[31mDELETE FROM "tutorials"[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Destroy (101.1ms)[0m  [1m[31mDELETE FROM "subjects"[0m
+  ↳ db/seeds.rb:16
+  [1m[36mTodo Destroy (106.1ms)[0m  [1m[31mDELETE FROM "todos"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCareer Create (0.5ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 04:20:44.331553"], ["updated_at", "2018-10-05 04:20:44.331553"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (131.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 04:20:44.488077"], ["updated_at", "2018-10-05 04:20:44.488077"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (211.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 04:20:44.716313"], ["updated_at", "2018-10-05 04:20:44.716313"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (182.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 04:20:44.903860"], ["updated_at", "2018-10-05 04:20:44.903860"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (555.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Medicina"], ["created_at", "2018-10-05 04:20:45.461640"], ["updated_at", "2018-10-05 04:20:45.461640"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (189.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Cancer"], ["summary", "Esta es una materia sobre el cancer y sus efectos"], ["created_at", "2018-10-05 04:20:45.659002"], ["updated_at", "2018-10-05 04:20:45.659002"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (151.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo2"], ["completed", 1], ["order", 1232], ["created_at", "2018-10-05 04:20:45.811513"], ["updated_at", "2018-10-05 04:20:45.811513"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (104.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Arquitectura"], ["created_at", "2018-10-05 04:20:45.917930"], ["updated_at", "2018-10-05 04:20:45.917930"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (87.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Urbanistica"], ["summary", "Esta es una materia sobre urbanistica"], ["created_at", "2018-10-05 04:20:46.014670"], ["updated_at", "2018-10-05 04:20:46.014670"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (92.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo3"], ["completed", 1], ["order", 1233], ["created_at", "2018-10-05 04:20:46.110082"], ["updated_at", "2018-10-05 04:20:46.110082"]]
+  ↳ db/seeds.rb:44
+  [1m[35m (87.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Musica"], ["created_at", "2018-10-05 04:20:46.199829"], ["updated_at", "2018-10-05 04:20:46.199829"]]
+  ↳ db/seeds.rb:46
+  [1m[35m (174.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jpmoreno@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Tutor"], ["created_at", "2018-10-05 04:20:46.379171"], ["updated_at", "2018-10-05 04:20:46.379171"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (102.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Lectoescritura musical"], ["summary", "esta es una materia que desarrolla capacidad auditiva y formacion teorica"], ["created_at", "2018-10-05 04:20:46.485620"], ["updated_at", "2018-10-05 04:20:46.485620"]]
+  ↳ db/seeds.rb:52
+  [1m[35m (96.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo4"], ["completed", 1], ["order", 1234], ["created_at", "2018-10-05 04:20:46.584224"], ["updated_at", "2018-10-05 04:20:46.584224"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (88.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Fisica"], ["created_at", "2018-10-05 04:20:46.674907"], ["updated_at", "2018-10-05 04:20:46.674907"]]
+  ↳ db/seeds.rb:55
+  [1m[35m (88.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ioobrador@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:60
+  [1m[36mTutorial Create (0.2ms)[0m  [1m[32mINSERT INTO "tutorials" ("title", "summary", "appointment", "created_at", "updated_at", "subject_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "musica instrumental"], ["summary", "Esta es un resumen sobre musica instrumental"], ["appointment", "2018-10-16"], ["created_at", "2018-10-05 04:20:46.770975"], ["updated_at", "2018-10-05 04:20:46.770975"], ["subject_id", 4]]
+  ↳ db/seeds.rb:60
+  [1m[35m (156.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Fisica cuantica"], ["summary", "esta materia nos muestra la naturaleza a escalas espacialmente pequeñas"], ["created_at", "2018-10-05 04:20:46.929303"], ["updated_at", "2018-10-05 04:20:46.929303"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (167.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo5"], ["completed", 1], ["order", 1235], ["created_at", "2018-10-05 04:20:47.099103"], ["updated_at", "2018-10-05 04:20:47.099103"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (93.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Destroy (104.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Destroy (65.7ms)[0m  [1m[31mDELETE FROM "careers"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mArticle Destroy (99.6ms)[0m  [1m[31mDELETE FROM "articles"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRole Destroy (65.7ms)[0m  [1m[31mDELETE FROM "roles"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUserRole Destroy (65.1ms)[0m  [1m[31mDELETE FROM "user_roles"[0m
+  ↳ db/seeds.rb:14
+  [1m[36mTutorial Destroy (99.4ms)[0m  [1m[31mDELETE FROM "tutorials"[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Destroy (417.9ms)[0m  [1m[31mDELETE FROM "subjects"[0m
+  ↳ db/seeds.rb:16
+  [1m[36mTodo Destroy (65.7ms)[0m  [1m[31mDELETE FROM "todos"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 04:20:58.334705"], ["updated_at", "2018-10-05 04:20:58.334705"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (62.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 04:20:58.419979"], ["updated_at", "2018-10-05 04:20:58.419979"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (100.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 04:20:58.541649"], ["updated_at", "2018-10-05 04:20:58.541649"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (67.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 04:20:58.614667"], ["updated_at", "2018-10-05 04:20:58.614667"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (61.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Medicina"], ["created_at", "2018-10-05 04:20:58.678399"], ["updated_at", "2018-10-05 04:20:58.678399"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (98.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Cancer"], ["summary", "Esta es una materia sobre el cancer y sus efectos"], ["created_at", "2018-10-05 04:20:58.786097"], ["updated_at", "2018-10-05 04:20:58.786097"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo2"], ["completed", 1], ["order", 1232], ["created_at", "2018-10-05 04:20:58.862826"], ["updated_at", "2018-10-05 04:20:58.862826"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (82.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Arquitectura"], ["created_at", "2018-10-05 04:20:58.947143"], ["updated_at", "2018-10-05 04:20:58.947143"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (70.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Urbanistica"], ["summary", "Esta es una materia sobre urbanistica"], ["created_at", "2018-10-05 04:20:59.032743"], ["updated_at", "2018-10-05 04:20:59.032743"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (98.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo3"], ["completed", 1], ["order", 1233], ["created_at", "2018-10-05 04:20:59.132713"], ["updated_at", "2018-10-05 04:20:59.132713"]]
+  ↳ db/seeds.rb:44
+  [1m[35m (75.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Musica"], ["created_at", "2018-10-05 04:20:59.210624"], ["updated_at", "2018-10-05 04:20:59.210624"]]
+  ↳ db/seeds.rb:46
+  [1m[35m (77.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jpmoreno@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Tutor"], ["created_at", "2018-10-05 04:20:59.293352"], ["updated_at", "2018-10-05 04:20:59.293352"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (119.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Lectoescritura musical"], ["summary", "esta es una materia que desarrolla capacidad auditiva y formacion teorica"], ["created_at", "2018-10-05 04:20:59.416749"], ["updated_at", "2018-10-05 04:20:59.416749"]]
+  ↳ db/seeds.rb:52
+  [1m[35m (74.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo4"], ["completed", 1], ["order", 1234], ["created_at", "2018-10-05 04:20:59.492710"], ["updated_at", "2018-10-05 04:20:59.492710"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (75.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Fisica"], ["created_at", "2018-10-05 04:20:59.571052"], ["updated_at", "2018-10-05 04:20:59.571052"]]
+  ↳ db/seeds.rb:55
+  [1m[35m (121.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ioobrador@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Fisica cuantica"], ["summary", "esta materia nos muestra la naturaleza a escalas espacialmente pequeñas"], ["created_at", "2018-10-05 04:20:59.701047"], ["updated_at", "2018-10-05 04:20:59.701047"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (81.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo5"], ["completed", 1], ["order", 1235], ["created_at", "2018-10-05 04:20:59.784108"], ["updated_at", "2018-10-05 04:20:59.784108"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (94.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mCareer Load (0.3ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "articles"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (483.0ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "visits_count" integer, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (82.9ms)[0m  [1m[35mCREATE  INDEX "index_articles_on_user_id" ON "articles" ("user_id")[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "careers"[0m
+  ↳ db/schema.rb:26
+  [1m[35m (82.5ms)[0m  [1m[35mCREATE TABLE "careers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "roles"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (83.6ms)[0m  [1m[35mCREATE TABLE "roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "subjects"[0m
+  ↳ db/schema.rb:38
+  [1m[35m (116.1ms)[0m  [1m[35mCREATE TABLE "subjects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Name" varchar, "summary" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "todos"[0m
+  ↳ db/schema.rb:45
+  [1m[35m (83.4ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "completed" boolean, "order" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:45
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "tutorials"[0m
+  ↳ db/schema.rb:53
+  [1m[35m (82.2ms)[0m  [1m[35mCREATE TABLE "tutorials" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "summary" text, "appointment" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "subject_id" integer)[0m
+  ↳ db/schema.rb:53
+  [1m[35m (412.6ms)[0m  [1m[35mCREATE  INDEX "index_tutorials_on_subject_id" ON "tutorials" ("subject_id")[0m
+  ↳ db/schema.rb:53
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "user_roles"[0m
+  ↳ db/schema.rb:63
+  [1m[35m (82.4ms)[0m  [1m[35mCREATE TABLE "user_roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:63
+  [1m[35m (116.8ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_role_id" ON "user_roles" ("role_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (82.7ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_user_id" ON "user_roles" ("user_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:72
+  [1m[35m (105.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "name" varchar, "last_name" varchar, "permission_level" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "career_id" integer)[0m
+  ↳ db/schema.rb:72
+  [1m[35m (110.3ms)[0m  [1m[35mCREATE  INDEX "index_users_on_career_id" ON "users" ("career_id")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (102.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (106.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (107.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (77.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181001061451)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (126.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180921200838),
+(20180929025126),
+(20181001050423),
+(20181001044211),
+(20180928035451),
+(20180928041124),
+(20180929025304),
+(20180928041204),
+(20181001051104);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (103.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-05 04:22:03.287132"], ["updated_at", "2018-10-05 04:22:03.287132"]]
+  ↳ db/schema.rb:13
+  [1m[35m (90.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "articles"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (150.0ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "visits_count" integer, "url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (150.9ms)[0m  [1m[35mCREATE  INDEX "index_articles_on_user_id" ON "articles" ("user_id")[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "careers"[0m
+  ↳ db/schema.rb:26
+  [1m[35m (156.6ms)[0m  [1m[35mCREATE TABLE "careers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "roles"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (185.8ms)[0m  [1m[35mCREATE TABLE "roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "subjects"[0m
+  ↳ db/schema.rb:38
+  [1m[35m (187.0ms)[0m  [1m[35mCREATE TABLE "subjects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Name" varchar, "summary" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "todos"[0m
+  ↳ db/schema.rb:45
+  [1m[35m (197.3ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "completed" boolean, "order" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:45
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tutorials"[0m
+  ↳ db/schema.rb:53
+  [1m[35m (555.3ms)[0m  [1m[35mCREATE TABLE "tutorials" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "summary" text, "appointment" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "subject_id" integer)[0m
+  ↳ db/schema.rb:53
+  [1m[35m (147.0ms)[0m  [1m[35mCREATE  INDEX "index_tutorials_on_subject_id" ON "tutorials" ("subject_id")[0m
+  ↳ db/schema.rb:53
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "user_roles"[0m
+  ↳ db/schema.rb:63
+  [1m[35m (129.8ms)[0m  [1m[35mCREATE TABLE "user_roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "role_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:63
+  [1m[35m (129.6ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_role_id" ON "user_roles" ("role_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (128.7ms)[0m  [1m[35mCREATE  INDEX "index_user_roles_on_user_id" ON "user_roles" ("user_id")[0m
+  ↳ db/schema.rb:63
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:72
+  [1m[35m (146.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "name" varchar, "last_name" varchar, "permission_level" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "career_id" integer)[0m
+  ↳ db/schema.rb:72
+  [1m[35m (135.6ms)[0m  [1m[35mCREATE  INDEX "index_users_on_career_id" ON "users" ("career_id")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (135.8ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (147.0ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/schema.rb:72
+  [1m[35m (168.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (186.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181001061451)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (169.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180921200838),
+(20180929025126),
+(20181001050423),
+(20181001044211),
+(20180928035451),
+(20180928041124),
+(20180929025304),
+(20180928041204),
+(20181001051104);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (539.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-05 04:22:07.145544"], ["updated_at", "2018-10-05 04:22:07.145544"]]
+  ↳ db/schema.rb:13
+  [1m[35m (117.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2018-10-05 04:22:07.265240"], ["key", "environment"]]
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (99.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/jann/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mUser Destroy (99.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mCareer Destroy (99.7ms)[0m  [1m[31mDELETE FROM "careers"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mArticle Destroy (100.6ms)[0m  [1m[31mDELETE FROM "articles"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRole Destroy (118.6ms)[0m  [1m[31mDELETE FROM "roles"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUserRole Destroy (100.4ms)[0m  [1m[31mDELETE FROM "user_roles"[0m
+  ↳ db/seeds.rb:14
+  [1m[36mTutorial Destroy (190.6ms)[0m  [1m[31mDELETE FROM "tutorials"[0m
+  ↳ db/seeds.rb:15
+  [1m[36mSubject Destroy (174.8ms)[0m  [1m[31mDELETE FROM "subjects"[0m
+  ↳ db/seeds.rb:16
+  [1m[36mTodo Destroy (174.9ms)[0m  [1m[31mDELETE FROM "todos"[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ingenieria de sistemas"], ["created_at", "2018-10-05 04:22:08.441384"], ["updated_at", "2018-10-05 04:22:08.441384"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (165.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juparomero@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Student"], ["created_at", "2018-10-05 04:22:08.632564"], ["updated_at", "2018-10-05 04:22:08.632564"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (183.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Programacion ruby"], ["summary", "Este es una materia sobre ruby"], ["created_at", "2018-10-05 04:22:08.832733"], ["updated_at", "2018-10-05 04:22:08.832733"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (202.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo1"], ["completed", 1], ["order", 1231], ["created_at", "2018-10-05 04:22:09.041202"], ["updated_at", "2018-10-05 04:22:09.041202"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (510.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Medicina"], ["created_at", "2018-10-05 04:22:09.553918"], ["updated_at", "2018-10-05 04:22:09.553918"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (186.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Cancer"], ["summary", "Esta es una materia sobre el cancer y sus efectos"], ["created_at", "2018-10-05 04:22:09.747734"], ["updated_at", "2018-10-05 04:22:09.747734"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (172.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo2"], ["completed", 1], ["order", 1232], ["created_at", "2018-10-05 04:22:09.922467"], ["updated_at", "2018-10-05 04:22:09.922467"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (186.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Arquitectura"], ["created_at", "2018-10-05 04:22:10.110829"], ["updated_at", "2018-10-05 04:22:10.110829"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (167.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "njjimenez@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:42
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Urbanistica"], ["summary", "Esta es una materia sobre urbanistica"], ["created_at", "2018-10-05 04:22:10.286953"], ["updated_at", "2018-10-05 04:22:10.286953"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (206.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo3"], ["completed", 1], ["order", 1233], ["created_at", "2018-10-05 04:22:10.495551"], ["updated_at", "2018-10-05 04:22:10.495551"]]
+  ↳ db/seeds.rb:44
+  [1m[35m (168.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Musica"], ["created_at", "2018-10-05 04:22:10.666027"], ["updated_at", "2018-10-05 04:22:10.666027"]]
+  ↳ db/seeds.rb:46
+  [1m[35m (207.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:46
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jpmoreno@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mRole Create (0.2ms)[0m  [1m[32mINSERT INTO "roles" ("role_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["role_name", "Tutor"], ["created_at", "2018-10-05 04:22:10.878923"], ["updated_at", "2018-10-05 04:22:10.878923"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (182.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Lectoescritura musical"], ["summary", "esta es una materia que desarrolla capacidad auditiva y formacion teorica"], ["created_at", "2018-10-05 04:22:11.066174"], ["updated_at", "2018-10-05 04:22:11.066174"]]
+  ↳ db/seeds.rb:52
+  [1m[35m (164.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:52
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo4"], ["completed", 1], ["order", 1234], ["created_at", "2018-10-05 04:22:11.232935"], ["updated_at", "2018-10-05 04:22:11.232935"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (174.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[36mCareer Create (0.2ms)[0m  [1m[32mINSERT INTO "careers" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Fisica"], ["created_at", "2018-10-05 04:22:11.409896"], ["updated_at", "2018-10-05 04:22:11.409896"]]
+  ↳ db/seeds.rb:55
+  [1m[35m (555.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ioobrador@unal.edu.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[36mCareer Load (0.1ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" WHERE "careers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:57
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[36mRole Load (0.1ms)[0m  [1m[34mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:59
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:60
+  [1m[36mTutorial Create (0.2ms)[0m  [1m[32mINSERT INTO "tutorials" ("title", "summary", "appointment", "created_at", "updated_at", "subject_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "musica instrumental"], ["summary", "Esta es un resumen sobre musica instrumental"], ["appointment", "2018-10-16"], ["created_at", "2018-10-05 04:22:11.972479"], ["updated_at", "2018-10-05 04:22:11.972479"], ["subject_id", 4]]
+  ↳ db/seeds.rb:60
+  [1m[35m (171.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("Name", "summary", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["Name", "Fisica cuantica"], ["summary", "esta materia nos muestra la naturaleza a escalas espacialmente pequeñas"], ["created_at", "2018-10-05 04:22:12.146584"], ["updated_at", "2018-10-05 04:22:12.146584"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (87.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mTodo Create (0.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "completed", "order", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "todo5"], ["completed", 1], ["order", 1235], ["created_at", "2018-10-05 04:22:12.236883"], ["updated_at", "2018-10-05 04:22:12.236883"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (88.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mCareer Load (0.4ms)[0m  [1m[34mSELECT  "careers".* FROM "careers" LIMIT ?[0m  [["LIMIT", 11]]
